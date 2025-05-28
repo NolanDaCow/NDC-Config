@@ -1,5 +1,5 @@
 theme = "tokyonight"
-client_id = "36f8f682d3ca44d9a8d45036967fe0c2"
+client_id = ""
 client_port = 8080
 login_redirect_uri = "http://127.0.0.1:8989/login"
 playback_format = """
