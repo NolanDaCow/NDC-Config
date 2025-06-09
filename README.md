@@ -1,1 +1,2 @@
 Personal Config for yours truely :D
+(NOTE! EVERYTHING IN THIS REPO IS WIP, AND IS FOR MY OWN PERSONAL BENEFIT)
