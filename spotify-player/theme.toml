@@ -1,7 +1,6 @@
 [[themes]]
 name = "tokyonight"
 [themes.palette]
-background = "#1f2335"
 foreground = "#c0caf5"
 black = "#414868"
 red = "#f7768e"
