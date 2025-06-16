@@ -15,6 +15,7 @@ Prob gonna end up overhalling in a month or so...
 - [spotify-player](https://github.com/aome510/spotify-player)
 - [SDDM](https://github.com/sddm/sddm)
 - [Waybar](https://github.com/Alexays/Waybar)
+- Extra tools + apps
 
 ### TODO:
 - Plugins (hyprpm, [hyprchroma](https://github.com/alexhulbert/Hyprchroma))
