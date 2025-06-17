@@ -2,6 +2,8 @@
 ## (NOTE! EVERYTHING IN THIS REPO IS WIP, AND IS FOR MY OWN PERSONAL BENEFIT)
 Prob gonna end up overhalling in a month or so...
 
+Remember to clone this repo inside ~/.config
+
 ### Includes:
 - [Hyprland](https://github.com/hyprwm/Hyprland)
 - [Hyprpaper](https://github.com/hyprwm/hyprpaper)
@@ -15,6 +17,7 @@ Prob gonna end up overhalling in a month or so...
 - [spotify-player](https://github.com/aome510/spotify-player)
 - [SDDM](https://github.com/sddm/sddm)
 - [Waybar](https://github.com/Alexays/Waybar)
+- [Cowsay](https://github.com/cowsay-org/cowsay) & [Figlet](http://www.figlet.org/)
 - Extra tools + apps
 
 ### TODO:
