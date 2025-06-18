@@ -19,6 +19,7 @@ Remember to clone this repo inside ~/.config
 - [Waybar](https://github.com/Alexays/Waybar)
 - [Cowsay](https://github.com/cowsay-org/cowsay) & [Figlet](http://www.figlet.org/)
 - [nwg-look](https://github.com/nwg-piotr/nwg-look) (Use this to change GTK settings as needed)
+- [*thefuck*](https://github.com/nvbn/thefuck)
 - Extra tools + apps
 
 ### TODO:
