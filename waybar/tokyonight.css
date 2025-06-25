@@ -1,0 +1,26 @@
+@define-color main-bg       #1a1b26;
+@define-color main-fg       #c0caf5;
+
+@define-color active-fg     #ffffff;
+@define-color active-bg     #ffffff;
+
+@define-color module-fg     #c0caf5;
+@define-color module-bg     #ffffff;
+
+@define-color hover-fg      #ffffff;
+@define-color hover-bg      #ffffff;
+
+@define-color tray          #ffffff;
+
+@define-color cpuinfo       #ffffff;
+@define-color cpu           #ffffff;
+@define-color pulseaudio    #ffffff;
+@define-color workspaces    #ffffff;
+@define-color clock         #ffffff;
+
+
+/* State Colors */
+
+@define-color warning         #e0af68;
+@define-color critical        #f7768e;
+@define-color charging        #73daca;
