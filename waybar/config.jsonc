@@ -1,11 +1,19 @@
 {
     "layer": "top",
     "position": "top",
-    "modules-left": ["hyprland/workspaces", "hyprland/window"],
-    "modules-middle": ["custom/update","clock", "bluetooth"],
-    "modules-right": [ "custom/cpuinfo", "cpu", "custom/wifi", "pulseaudio", "battery"],
+    "modules-left": ["clock", "bluetooth", "custom/wifi", "custom/update"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["custom/cpuinfo", "cpu", "backlight", "pulseaudio", "battery"],
 
     //  <----------Modules------------->
+    
+    "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": []
+    }
+  },
 
     "hyprland/window": {
     "format": "{}",
@@ -118,10 +126,10 @@
     },
 
     "bluetooth": {
-    "format": "󰂰",
+    "format": "<span color='#7aa2f7'>󰂰</span>",
     "format-disabled": "󰂲",
-    "format-connected": "󰂱",
-    "format-connected-battery": "󰂱",
+    "format-connected": "<span color='#7aa2f7'>󰂱</span>",
+    "format-connected-battery": "<span color='#7aa2f7'>󰂱</span>",
 
     "tooltip-format": 
       "{num_connections} connected",
@@ -141,11 +149,12 @@
   },
 
     "clock": {
-    "format": "{:%I:%M}",
+    "interval": 1,
+    "format": "{:%I:%M:%S %p }",
     "tooltip": false,
     // "tooltip-format": "Standard Time: {:%I:%M %p}",
     "min-length": 6,
-    "max-length": 6
+    "max-length": 25
   },
 
     "custom/cpuinfo": {
@@ -177,6 +186,11 @@
     "max-length": 1
   },
 
+    "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": ["󱩎", "󱩒", "󰛨"]
+  },
+
     "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": "󰝟 {volume}%",
@@ -197,12 +211,12 @@
 
      "battery": {
     "states": {
-      "warning": 20,
-      "critical": 10
+      "warning": 30,
+      "critical": 15
     },
 
     "format": "{icon} {capacity}%",
-    "format-icons": ["󰂎", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "format-icons": ["<span color='#f7768e'>󰂎</span>", "<span color='#f7768e'>󰁻</span>", "<span color='#faba4a'>󰁼</span>", "<span color='#9fe044'>󰁽</span>", "<span color='#9fe044'>󰁾</span>", "<span color='#9fe044'>󰁿</span>", "<span color='#9fe044'>󰂀</span>", "<span color='#9fe044'>󰂁</span>", "<span color='#9fe044'>󰂂</span>", "<span color='#9fe044'>󰁹</span>"],
     "format-charging": " {capacity}%",
 
     "tooltip-format": "Discharging: {time}",
@@ -210,6 +224,6 @@
     "interval": 1,
     "min-length": 6,
     "max-length": 6
-  },
+  }
 
 }

@@ -161,15 +161,15 @@ fi
 
 # Determine Wi-Fi icon based on signal strength
 if [ "$signal" -ge 80 ]; then
-  icon="󰤨" # Strong signal
+  icon="<span color='#9fe044'>󰤨</span>" # Strong signal
 elif [ "$signal" -ge 60 ]; then
-  icon="󰤥" # Good signal
+  icon="<span color='#9fe044'>󰤥</span>" # Good signal
 elif [ "$signal" -ge 40 ]; then
-  icon="󰤢" # Weak signal
+  icon="<span color='#faba4a'>󰤢</span>" # Weak signal
 elif [ "$signal" -ge 20 ]; then
-  icon="󰤟" # Very weak signal
+  icon="<span color='#f7768e'>󰤟</span>" # Very weak signal
 else
-  icon="󰤯" # No signal
+  icon="<span color='#a9b1d6'>󰤯</span>" # No signal
 fi
 
 # Module and tooltip

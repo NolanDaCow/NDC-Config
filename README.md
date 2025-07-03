@@ -1,6 +1,5 @@
 # Personal Config for yours truely :D
 ## (NOTE! EVERYTHING IN THIS REPO IS WIP, AND IS FOR MY OWN PERSONAL BENEFIT)
-Prob gonna end up overhalling in a month or so...
 
 Remember to clone this repo inside ~/.config
 
@@ -24,6 +23,6 @@ Remember to clone this repo inside ~/.config
 - [tldr](https://github.com/tldr-pages/tldr)
 
 ### TODO:
-- Plugins (hyprpm, [hyprchroma](https://github.com/alexhulbert/Hyprchroma))
+- Plugins (I.e. [hyprchroma](https://github.com/alexhulbert/Hyprchroma))
 - Add any other tools I find interesting or useful (or both (or neither))
-- Write install script
+- Write/Test install script

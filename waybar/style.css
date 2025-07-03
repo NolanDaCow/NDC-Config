@@ -2,7 +2,7 @@
     /*   CHANGE IMPORT TO CHANGE THEME */
 
     * {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "RobotoMono Nerd Font";
     font-weight: bold;
     min-height: 0;
@@ -14,6 +14,7 @@
     window#waybar {
         background: @main-bg;
         margin: 2px;
+        padding-left: 10px;
     }
 
 
@@ -30,9 +31,9 @@
 
     #workspaces button {
   color: @module-fg;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: none;
-  margin: 2px 0;
+  margin: 2px 4px;
   padding: 0 2px;
   transition: none;
     }
@@ -46,29 +47,36 @@
   padding: 0 6px;
     }
 
-    #workspaces, #window, #custom-cpuinfo, #memory, #cpu, #clock, #custom-wifi, #bluetooth, #custom-update, #pulseaudio, #battery {
+
+    #workspaces, #window, #custom-cpuinfo, #memory, #cpu, #clock, #backlight, #custom-wifi, #bluetooth, #custom-update, #pulseaudio, #battery {
     opacity: 1;
     color: @module-fg;
     padding: 0 4px;
     }
 
     #custom-cpuinfo {
-  background: @cpuinfo;
+  background: @cpuinfo-bg;
+  color: @cpuinfo;
   padding: 0 0 0 1px;
     }
 
     #cpu {
-    background: @cpu;
+    background: @cpu-bg;
+    color: @cpu;
+    }
+
+    #cpu:hover {
+    color: @hover-fg;
     }
 
     #clock {
-     background: @clock;
-     margin-left: -2px;
+     background: @clock-bg;
+     color: @clock;
      padding: 0 3px 0 0;
     }
 
     #custom-wifi {
-    background: @tray;
+    background: @wifi-bg;
      padding: 0 8px 0 5px;
     }
 
@@ -95,7 +103,8 @@
     }
 
     #pulseaudio {
-    background: @pulseaudio;
+    background: @pulseaudio-bg;
+    color: @pulseaudio;
     }   
 
     #pulseaudio:hover {
@@ -103,18 +112,6 @@
     }
 
     #battery {
-    color: @module-fg;
-    background: @battery;
-    }
-
-    #battery.warning {
-    color: @warning;
-    }
-
-    #battery.critical {
-    color: @critical;
-    }
-
-    #battery.charging {
-    color: @charging;
+    color: @battery;
+    background: @battery-bg;
     }

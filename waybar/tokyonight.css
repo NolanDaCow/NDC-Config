@@ -10,17 +10,21 @@
 @define-color hover-fg      #ffffff;
 @define-color hover-bg      #ffffff;
 
-@define-color tray          #ffffff;
+@define-color tray          @main-bg;
 
-@define-color cpuinfo       #ffffff;
-@define-color cpu           #ffffff;
-@define-color pulseaudio    #ffffff;
-@define-color workspaces    #ffffff;
-@define-color clock         #ffffff;
+@define-color cpuinfo-bg    @main-bg;
+@define-color cpu-bg        @main-bg;
+@define-color pulseaudio-bg @main-bg;
+@define-color workspaces-bg #9ece6a;
+@define-color clock-bg      @main-bg;
+@define-color battery-bg    @main-bg;
+@define-color wifi-bg       @main-bg;
+@define-color backlight-bg  @main-bg;
 
-
-/* State Colors */
-
-@define-color warning         #e0af68;
-@define-color critical        #f7768e;
-@define-color charging        #73daca;
+@define-color cpuinfo       @main-fg;
+@define-color cpu           @main-fg;
+@define-color pulseaudio    @main-fg;
+@define-color workspaces    @main-fg;
+@define-color clock         @main-fg;
+@define-color battery       @main-fg;
+@define-color backlight     @main-fg;
