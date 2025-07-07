@@ -13,3 +13,9 @@ sudo mv ~/.config/tokyo-night-sddm /usr/share/sddm/themes/
 sudo chmod +x ~/.config/hypr/scripts/*
 sudo chmod +x ~/.config/waybar/scripts/*
 systemctl enable sddm
+#PEACLOCK SETUP
+git clone https://github.com/octobanana/peaclock/
+peaclock/RUNME.sh install
+rm -r -f peaclock
+alias peaclock="peaclock --config-dir ~/.config/peaconfig/"
+

@@ -16,7 +16,7 @@ Remember to clone this repo inside ~/.config
 - [Kitty](https://github.com/kovidgoyal/kitty)
 - [Btop](https://github.com/aristocratos/btop)
 - [Neovim](https://github.com/neovim/neovim)
-- [arttime](https://github.com/poetaman/arttime?tab=readme-ov-file#installation)
+- [arttime](https://github.com/poetaman/arttime?tab=readme-ov-file#installation) & [Peaclock](https://github.com/octobanana/peaclock)
 - [spotify-player](https://github.com/aome510/spotify-player)
 - [Cowsay](https://github.com/cowsay-org/cowsay), [Figlet](http://www.figlet.org/) & [lolcat](https://github.com/busyloop/lolcat)
 - [*thefuck*](https://github.com/nvbn/thefuck)
