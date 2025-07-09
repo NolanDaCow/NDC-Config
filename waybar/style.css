@@ -72,7 +72,7 @@
     #clock {
      background: @clock-bg;
      color: @clock;
-     padding: 0 3px 0 0;
+     padding: 0 3px 0 10px;
     }
 
     #custom-wifi {
@@ -114,4 +114,5 @@
     #battery {
     color: @battery;
     background: @battery-bg;
+    padding-right: 10px;
     }

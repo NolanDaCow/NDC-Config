@@ -152,6 +152,7 @@
     "interval": 1,
     "format": "{:%I:%M:%S %p }",
     "tooltip": false,
+    "on-click": "kitty --title 'clock' bash -c peaclock",
     // "tooltip-format": "Standard Time: {:%I:%M %p}",
     "min-length": 6,
     "max-length": 25
