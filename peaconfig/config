@@ -15,7 +15,7 @@ rate-status 5000
 rate-refresh 1000
 block 2 1
 padding 2 1
-margin 0 0
+margin 3 3
 ratio 2 1
 date-padding 1
 set date on

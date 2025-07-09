@@ -36,16 +36,17 @@ get_temperature_icon() {
   if [ "$temp_value" = "--" ]; then
     icon="󱔱" # none
   elif [ "$temp_value" -ge 80 ]; then
-    icon="󰸁" # high
+    icon="<span color='#f7768e'>󰸁</span>" # high
   elif [ "$temp_value" -ge 70 ]; then
-    icon="󱃂" # medium
+    icon="<span color='#faba4a'>󱃂</span>" # medium
   elif [ "$temp_value" -ge 60 ]; then
-    icon="󰔏" # normal
+    icon="<span color='#9fe044'>󰔏</span>" # normal
   else
-    icon="󱃃" # low
+    icon="<span color='#a4daff'>󱃃</span>" # low
   fi
   echo "$icon"
 }
+
 
 cpu_frequency=$(get_cpu_frequency)
 read -r temp_info < <(get_cpu_temperature)
