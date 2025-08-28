@@ -114,5 +114,8 @@
     #battery {
     color: @battery;
     background: @battery-bg;
-    padding-right: 10px;
+    }
+
+    #custom-notification {
+      padding-right: 10px;
     }
